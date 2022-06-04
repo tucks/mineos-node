@@ -25,7 +25,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_14.x | bash - \
 #download mineos from github
 RUN mkdir /usr/games/minecraft \
   && cd /usr/games/minecraft \
-  && git clone --depth=1 https://github.com/hexparrot/mineos-node.git . \
+  && git clone --depth=1 https://github.com/tucks/mineos-node.git -b zz-_bedrock-wrapper . \
   && cp mineos.conf /etc/mineos.conf \
   && chmod +x webui.js mineos_console.js service.js
 
