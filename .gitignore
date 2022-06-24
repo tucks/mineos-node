@@ -29,3 +29,6 @@ build/Release
 # Dependency directory
 # https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
 node_modules
+
+# Ensure localised attributes do not affect other devs
+.gitattributes
